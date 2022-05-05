@@ -1,5 +1,5 @@
 """
-Build the basic framework for main.py, rl.py and env.py.
+Build env.py, add basic components, and visualize it.
 """
 from env import ArmEnv
 from rl import DDPG
