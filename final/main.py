@@ -3,8 +3,8 @@ Make it more robust.
 Stop episode once the finger stop at the final position for 50 steps.
 Feature & reward engineering.
 """
-from final.env import ArmEnv
-from final.rl import DDPG
+from env import ArmEnv
+from rl import DDPG
 
 MAX_EPISODES = 900
 MAX_EP_STEPS = 200
